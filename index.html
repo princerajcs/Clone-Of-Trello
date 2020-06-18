@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>assignment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.0/dragula.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="main" class="mainclass">
+  <div class="fixed-header">
+    <button class="button button5" onclick="addnewboard()">Add New Board</button>
+    <!<button class="button button5" onclick="rem()"><!remove Board</button>
+    <div class="container">
+
+      <h1 class="abc">Assignmnet for Internship in Flyrobe.com...<b>A SAMPLE OF Trello.com</b></h1>
+    </div>
+  </div>
+   <div id="maindiv">
+      <button class="close" id="cross" onclick="rem()">&times;</button>
+     <div  class="column" id="list" >
+     <div   id="div1">  
+      <h1 class="title" id="change">To Do</h1>
+       <div class="item*" id="dynamic-div">
+        <ul id="dynamic-list" class="item-title"></ul>
+      </div>
+      <br>
+      <div><input type="text" id="candidate" />
+        <button onclick="addItem()">add</button>
+        <button onclick="removeItem()">rem</button></div>
+    </div>
+    </div>
+    <br>
+    <div class="column" id="list1">
+    <di id="div2">
+      <h1 class="title">Done</h1>
+
+      <div class="item*" id="dynamic-div1">
+        <ul id="dynamic-list1" class="item-title"></ul>
+      </div>
+      <br>
+      <div><input type="text" id="candidate1" />
+        <button onclick="addItem1()">add</button>
+        <button onclick="removeItem1()">rem</button></div>
+
+
+    </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.0/dragula.min.js'></script>
+
+
+
+    <script src="js/index.js"></script>
+
+
+    <br>
+  </div>
+  <div class="fixed-footer">
+    <div class="container">Developed by <b>PRINCE RAJ</b></div>
+  </div>
+  
+</body>
+
+</html>
